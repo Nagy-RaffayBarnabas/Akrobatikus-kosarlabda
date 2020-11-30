@@ -1,0 +1,24 @@
+body {
+    background-color: cadetblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 300%;
+    font-style: italic;
+}
+
+a {
+    color: cornsilk;
+}
+
+p {
+    text-align: justify;
+}
+
+.kiemelt {
+    font-weight: bold;
+    color: darkblue;
+    font-stretch: expanded;
+}
