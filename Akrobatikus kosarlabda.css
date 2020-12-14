@@ -30,9 +30,38 @@ img {
 
 #keret {
     width: 500px;
-    color: darkturquoise;
+    color: darkslategrey;
     background-color: bisque;
     padding: 15px;
     border: 5px solid darkorange;
     margin: 20px;
 }
+
+.kelleklista {
+    font-style: italic;
+    text-transform: lowercase;
+    list-style-type: square;
+    list-style-image: url("akrokosar.png");
+    font-size: 18px;
+}
+
+table {
+    width: 50%;
+    background-color: gray;
+    border: 1px solid peru;
+    border-collapse: separate;
+}
+
+table, table td, table th {
+    border: 1px solid darkred;
+}
+
+table th {
+    background-color: maroon;
+    color: wheat;
+}
+
+table tr :hover {
+    background-color: teal;
+}
+
