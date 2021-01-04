@@ -2,6 +2,12 @@ body {
     background-color: cadetblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
+    margin-left: 50px;
+    background-image: url(logo.jpg);
+    background-repeat: repeat-y;
+    background-position: right;
+    margin-right: 160px
+
 }
 
 h1 {
@@ -18,17 +24,25 @@ p {
     text-align: justify;
 }
 
+.zsak {
+    width: 700px;
+    float: right;
+    padding-right: 200px;
+}
+
 .kiemelt {
+    font-size: 14pt;
     font-weight: bold;
     color: darkblue;
     font-stretch: expanded;
 }
-img {
+.kepek {
     width: 800px;
     margin-left: 500px;
 }
 
 #keret {
+    font-size: 14pt;
     width: 500px;
     color: darkslategrey;
     background-color: bisque;
@@ -46,7 +60,7 @@ img {
 }
 
 table {
-    width: 50%;
+    width: 40%;
     background-color: gray;
     border: 1px solid peru;
     border-collapse: separate;
