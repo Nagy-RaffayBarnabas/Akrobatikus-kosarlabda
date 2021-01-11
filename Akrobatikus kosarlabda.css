@@ -7,7 +7,6 @@ body {
     background-repeat: repeat-y;
     background-position: right;
     margin-right: 160px
-
 }
 
 h1 {
@@ -49,6 +48,8 @@ p {
     padding: 15px;
     border: 5px solid darkorange;
     margin: 20px;
+    margin-left: 55px;
+    margin-top: 60px;
 }
 
 .kelleklista {
@@ -79,3 +80,15 @@ table tr :hover {
     background-color: teal;
 }
 
+#dontes {
+    margin-left: 10px;
+    font-size: 30pt;
+    float: left;
+    -ms-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    background-color: darkred;
+    border: 5px solid darkorange;
+    padding-left: 15px;
+    padding-right: 15px;
+}
