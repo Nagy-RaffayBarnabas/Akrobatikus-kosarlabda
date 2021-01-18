@@ -37,12 +37,12 @@ p {
 }
 .kepek {
     width: 800px;
-    margin-left: 500px;
+    margin-left: 400px;;
 }
 
 #keret {
     font-size: 14pt;
-    width: 500px;
+    width: 600px;
     color: darkslategrey;
     background-color: bisque;
     padding: 15px;
@@ -91,4 +91,9 @@ table tr :hover {
     border: 5px solid darkorange;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.vissza {
+    float: left;
+    margin-top: 450px;
 }
