@@ -14,7 +14,7 @@ h1 {
     font-style: italic;
 }
 
-a {
+.csapat {
     color: khaki;
     text-decoration: none;
 }
@@ -42,7 +42,7 @@ p {
 
 #keret {
     font-size: 14pt;
-    width: 600px;
+    width: 750px;
     color: darkslategrey;
     background-color: bisque;
     padding: 15px;
@@ -96,4 +96,29 @@ table tr :hover {
 .vissza {
     float: left;
     margin-top: 450px;
+}
+
+.korosztaly {
+    font-size: 18pt;
+    color: khaki;
+    text-decoration: none;
+}
+
+.jobbra {
+    float:right;
+    margin-right: 50px;
+    margin-top: -200px;
+    width: 400px;
+    height: auto;
+}
+
+.utolso {
+    float:right;
+    margin-right: 50px;
+    width: 400px;
+    height: auto;
+}
+
+#fel {
+    margin-top: 70px;
 }
