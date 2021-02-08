@@ -65,6 +65,7 @@ table {
     background-color: gray;
     border: 1px solid peru;
     border-collapse: separate;
+    margin-bottom: 20px;
 }
 
 table, table td, table th {
@@ -95,7 +96,7 @@ table tr :hover {
 
 .vissza {
     float: left;
-    margin-top: 450px;
+    margin-top: 100px;
 }
 
 .korosztaly {
@@ -121,4 +122,40 @@ table tr :hover {
 
 #fel {
     margin-top: 70px;
+}
+
+.jelentkezz {
+    font-size: 18pt;
+    color: khaki;
+    text-decoration: none;
+}
+
+input, textarea{
+    padding: 10px;
+}
+
+.reg {
+    width: 550px;
+    background-color: royalblue;
+    padding: 10px;
+}
+
+.reg div{
+    margin: 30px;
+}
+
+.reg input{
+    width: 460px;
+}
+
+.reg input[type=checkbox],  .reg input[type=radio] {
+    width: auto;
+}
+
+.jelkép {
+    margin-top: -500px;
+    float: right;
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
 }
