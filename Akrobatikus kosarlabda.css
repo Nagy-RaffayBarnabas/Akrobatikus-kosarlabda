@@ -159,3 +159,9 @@ input, textarea{
     -webkit-transform: rotate(20deg);
     transform: rotate(20deg);
 }
+
+.menet {
+    font-size: 18pt;
+    color: mediumblue;
+    text-decoration: none;
+}
