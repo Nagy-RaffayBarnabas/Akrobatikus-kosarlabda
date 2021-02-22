@@ -30,10 +30,11 @@ p {
 }
 
 .kiemelt {
-    font-size: 14pt;
+    font-size: 18pt;
     font-weight: bold;
     color: darkblue;
     font-stretch: expanded;
+    text-decoration: none;
 }
 .kepek {
     width: 800px;
